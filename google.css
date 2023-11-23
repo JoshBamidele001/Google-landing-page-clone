@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../Assignments/gooogle/desktop-wallpaper-google-now-chrome-cool-cool-simple-landscape-background-minimalist-chrome.jpg);
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+   background: none;
+   border: 0px;
+   color: white;
+}
+
+.dropdown1 img{
+    width: 90px;
+    height: 80px;
+}
+
+.contents{
+    width: 300px;
+    height: 400px;
+    right: 0;
+    background-color: rgba(122, 199, 204, 0.479);
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: auto;
+    position: absolute;
+    border-width: 5px;
+    border-radius: 23px;
+}
+
+.contents::-webkit-scrollbar{
+    background-color: black;
+    width: 10px;
+    border-radius: 15px;
+}
+
+.contents::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 15px;
+}
+.icover{
+    display: none;  
+} 
+
+.kat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent11:focus-within .icover{
+    display: block;
+}
+
+.parent11{
+    display: block;
+    position: relative;
+}
+.jooo{
+    width: 30px;
+    height: 30px; 
+    border-radius: 50%;
+    margin: 0 50px 0 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 15px;
+    color: white;
+    /* color: white; */
+}
+
+.nav span{
+    color: white;
+}
+
+.dropdown1{
+/* background-color: rebeccapurple; */
+width: fit-content;
+line-height: 30px;
+transition: all 0.6s linear;
+padding: 10px;
+text-align: center;
+right: 0;
+}
+
+.dropdown1:hover{
+    background-color: rgba(77, 59, 59, 0.473)
+}
+.dropdown1 img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 0 10px;
+}
+
+.body img{
+    width: 300px;
+    height: 200px;
+    margin: 100px 0 -30px 500px;
+}
+
+.body input{
+    padding: 15px 170px;
+    border-radius: 20px;
+    border: 0;
+    background-image: url(../gooogle/800px-Vector_search_icon.svg.png);
+    background-size: 5%;
+    background-repeat: no-repeat;
+    background-position: 20px;
+
+}
+
+.Youtube img{
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.Youtube{
+    transition: all 0.6s linear;
+    padding: 10px;
+    background: url(../gooogle/image_processing20210629-14744-1dxwujm.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    color: white;
+    font-weight: 600;
+}
+
+.facebook{
+    transition: all 0.6s linear;
+    padding: 10px;
+    background: url(../gooogle/image_processing20210629-14744-1dxwujm.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.Get{
+    transition: all 0.6s linear;
+    padding: 10px;
+    background: url(../gooogle/image_processing20210629-14744-1dxwujm.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.Tesla{
+    transition: all 0.6s linear;
+    padding: 10px;
+    background: url(../gooogle/image_processing20210629-14744-1dxwujm.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.w3{
+    transition: all 0.6s linear;
+    padding: 10px;
+    background: url(../gooogle/image_processing20210629-14744-1dxwujm.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.Youtube{
+    transition: all 0.6s linear;
+    padding: 10px;
+    background: url(../gooogle/image_processing20210629-14744-1dxwujm.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    
+}
+.Rive{
+    transition: all 0.6s linear;
+    padding: 10px;
+    background: url(../gooogle/image_processing20210629-14744-1dxwujm.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.netflix{
+    transition: all 0.6s linear;
+    padding: 10px;
+    background: url(../gooogle/image_processing20210629-14744-1dxwujm.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.gmail{
+    transition: all 0.6s linear;
+    padding: 10px;
+    background: url(../gooogle/image_processing20210629-14744-1dxwujm.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.add{
+    transition: all 0.6s linear;
+    padding: 10px;
+    background: url(../gooogle/image_processing20210629-14744-1dxwujm.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+
+.facebook img{
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.Get img{
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.Tesla img{
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+.w3 img{
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.jk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 0 0px;
+    gap: 20px;
+}
+
+.down2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 0 0px;
+    gap: 20px;
+}
+
+
+.Rive img{
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.netflix img{
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.gmail img{
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+.add img{
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.Youtube:hover{
+    background-color: rgba(122, 199, 204, 0.479);
+}
+
+.Get:hover{
+    background-color: rgba(122, 199, 204, 0.479);
+}
+
+.Tesla:hover{
+    background-color: rgba(122, 199, 204, 0.479);
+}
+.facebook:hover{
+    background-color: rgba(122, 199, 204, 0.479);
+}
+.w3:hover{
+    background-color: rgba(122, 199, 204, 0.479);
+}
+.Rive:hover{
+    background-color: rgba(122, 199, 204, 0.479);
+}
+.netflix:hover{
+    background-color: rgba(122, 199, 204, 0.479);
+}
+.gmail:hover{
+    background-color: rgba(122, 199, 204, 0.479);
+}
+.add:hover{
+    background-color: rgba(122, 199, 204, 0.479);
+}
